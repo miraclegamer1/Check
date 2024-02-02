@@ -1,0 +1,92 @@
+body{
+  background-color: rgb(41, 41, 41);
+}
+.user-info {
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: rgb(62, 62, 62);
+    border-radius: 10px;
+    border: 0.2px solid white;
+  
+  }
+  @media (max-width: 600px) {
+    .user-info {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  .profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+overflow: hidden;
+
+  }
+  .profile-photo img{
+
+    object-fit: fill;
+  }
+  .user-details {
+    margin-left: 70px;
+    margin-top: 20px;
+    display: flex;
+  }
+  
+  
+  h1 {
+    font-size: 26px;
+    font-family: sans-serif;
+    margin-bottom: 10px; 
+    color: white;
+  }
+  
+  p {
+    font-size: 14px;
+    margin-top: 60px;
+    margin-left: 20px;
+    font-family: sans-serif;
+    color: aliceblue;
+  }
+.flex{
+    display: flex;
+}
+.h1{
+position: absolute;
+margin-left: 53px;
+font-family: sans-serif;
+font-size: 20px;
+color: aliceblue;
+}
+.h2{
+    position: absolute;
+    margin-left: 145px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: aliceblue; 
+}
+.h3{
+    position: absolute;
+    margin-left: 220px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: aliceblue; 
+}
+.ism{
+    width: 150px;
+    height: 23px;
+    margin-left: 170px;
+    margin-top: 20px;
+    outline: none;
+    border-radius: 3px;
+    border: none;
+}
+
+h2{
+    color: aliceblue;
+    font-family: sans-serif ;
+}
